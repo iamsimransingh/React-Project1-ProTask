@@ -32,7 +32,7 @@ function App() {
     filterHandler();
     
   }, [todos, status]);
- //save to local
+ //save to local storage
  const saveLocalTodos = () => {
      localStorage.setItem("todos",JSON.stringify(todos));
  };
